@@ -23,7 +23,7 @@
 
 ## No Build Tools Required
 
-- This example does not require any build tools
+- This example does not require any build tools...
 
 ## Converting an App to use Vue
 
