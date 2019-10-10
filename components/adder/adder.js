@@ -14,4 +14,5 @@ const adder = new Vue({
       return `${this.guest}, your sum is ${add(i, j)}.`
     }
   }
+
 })
