@@ -28,6 +28,7 @@
   <link href="components/subtracter/subtracter.css" rel="stylesheet">
   <link href="components/findSum/findSum.css" rel="stylesheet">
   <link href="components/coder/coder.css" rel="stylesheet">
+  <link href="components/nameLength/nameLength.css" rel="stylesheet">
 
 </head>
 
@@ -35,6 +36,17 @@
   <main class="container-fluid  flex-fill">
 
     <div class="row">
+
+        <article id="adder" class="col-md-4 ">
+            <h2>Name Length Calculator</h2>
+    
+            <fieldset class="mt-2">
+              <label for="name">Enter your name (2 to 20 characters):</label>
+              <input v-model="name" id="name" type="string" minlength="2" maxlength="20">
+            </fieldset>
+    
+            <h3 class="mt-2">{{result}}</h3>
+          </article>
 
       <article id="adder" class="col-md-4 ">
         <h2>Vue is awesome!</h2>
@@ -159,6 +171,7 @@
   <script src="components/subtracter/subtracter.js"></script>
   <script src="components/findSum/findSum.js"></script>
   <script src="components/coder/coder.js"></script>
+  <script src="components/nameLength/nameLength.js"></script>
 
 </body>
 
