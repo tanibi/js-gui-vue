@@ -7,7 +7,7 @@
 ## Links
 
 - [Demo](https://mprogers.github.io/js-gui-vue/)
-- [Source](https://github.com/mprogers/js-gui-vue)
+- [Source](https://github.com/tanibi/name-length-calculator)
 
 ## Requirements
 
