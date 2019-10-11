@@ -37,15 +37,15 @@
 
     <div class="row">
 
-        <article id="adder" class="col-md-4 ">
+        <article id="nameLength" class="col-md-4 ">
             <h2>Name Length Calculator</h2>
     
             <fieldset class="mt-2">
-              <label for="name">Enter your name (2 to 20 characters):</label>
-              <input v-model="name" id="name" type="string" minlength="2" maxlength="20">
+              <label for="name">Enter your name (max 20 characters):</label>
+              <input v-model="name" id="name" type="text" minlength="2" maxlength="20">
             </fieldset>
     
-            <h3 class="mt-2">{{result}}</h3>
+            <h3 class="mt-2">{{nameLength}}</h3>
           </article>
 
       <article id="adder" class="col-md-4 ">
