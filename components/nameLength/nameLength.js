@@ -1,13 +1,15 @@
-const nameLenth = (x) => { return x }
+const name = (x) => { return x; };
 
-const nameLenth = new Vue({
-  el: '#adder',
+const nameLength = new Vue({
+  el: '#nameLength',
   data: {
-    name: '',
+    name: 'Binita',
   },
   computed: {
     result: function () {
-      return `${this.guest}, your name length is ${nameLenth(i)}.`
+        const nLength = parseInt((this.name).length);
+
+      return `${this.name}, your name length is ${name(nLength)}.`;
     }
   }
 
