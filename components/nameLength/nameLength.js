@@ -3,7 +3,7 @@ const name = (x) => { return x; };
 const nameLength = new Vue({
   el: '#nameLength',
   data: {
-    name: 'Binita',
+    name: 'Lily',
   },
   computed: {
     result: function () {
